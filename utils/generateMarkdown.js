@@ -16,7 +16,13 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 ## Description:\n > ${data.description}
+## License: \n > ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
 ## Table of Contents:\n
+- [Installation](https://github.com/chuck2076/README_generator_CRS/tree/main/output#installation)
+- [Usage](https://github.com/chuck2076/README_generator_CRS/tree/main/output#usage)
+- [Contributors](https://github.com/chuck2076/README_generator_CRS/tree/main/output#contributors)
+- [Tests](https://github.com/chuck2076/README_generator_CRS/tree/main/output#tests)
+- [Questions](https://github.com/chuck2076/README_generator_CRS/tree/main/output#questions)
 ## Installation:\n > ${data.installation}
 ## Usage:\n > ${data.usage}
 ## Contributors:\n > [${data.contributors}](${data.contributors})

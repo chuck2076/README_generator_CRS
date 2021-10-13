@@ -10,6 +10,12 @@ const questions = [{
     message: "What is the title of this project?"
     },
 {
+        type: "list",
+        name: "license",
+        message: "Choose a license for this project:",
+        choices: ["Academic", "Apache", "GNU", "MIT", "Mozilla"]
+    },
+{
     type: "input",
     name: "description",
     message: "Give a brief description of this project"
