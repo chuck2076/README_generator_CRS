@@ -29,8 +29,29 @@ const questions = [{
     name: "contributors",
     message: "Link GitHub repos of contributors:",
     },
-
+{
+        type: "input",
+        name: "tests",
+        message: "Links to any tests of the project:",
+    },
+{
+        type: "input",
+        name: "userName",
+        message: "Who created the project?",
+    },
+{
+        type: "input",
+        name: "repo",
+        message: "Link the creator GitHub repo:",
+    },
+{
+        type: "input",
+        name: "email",
+        message: "Link the creator email:",
+    },
     
+
+
 ];
 
 // TODO: Create a function to write README file
