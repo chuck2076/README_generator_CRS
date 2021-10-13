@@ -15,7 +15,8 @@ function renderLicenseSection(license) {}
 //This will generate the string to be written to README
 function generateMarkdown(data) {
   return `# ${data.title}
-# 
+## Description:\n > ${data.description}
+## Installation:\n > ${data.installation}
 
 `;
 }

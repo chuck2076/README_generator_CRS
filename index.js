@@ -8,18 +8,29 @@ const questions = [{
     type: "input",
     name: "title",
     message: "What is the title of this project?"
-},
+    },
 {
     type: "input",
     name: "description",
     message: "Give a brief description of this project"
-},
-    {
-    type: "list",
-    name: "tableOfContents",
-    message: "Choose sections to include in the README",
-    choices: 
     },
+{
+    type: "input",
+    name: "installation",
+    message: "What are the steps to installing the project?"
+    },
+{
+    type: "input",
+    name: "usage",
+    message: "How does the user use the project?"
+    },
+{
+    type: "input",
+    name: "contributors",
+    message: "Link GitHub repos of contributors:",
+    },
+
+    
 ];
 
 // TODO: Create a function to write README file
