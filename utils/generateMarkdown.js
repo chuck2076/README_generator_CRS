@@ -26,7 +26,8 @@ function generateMarkdown(data) {
 ## Installation:\n > ${data.installation}
 ## Usage:\n > ${data.usage}
 ## Contributors:\n > [${data.contributors}](${data.contributors})
-## Tests:\n > [${data.tests}](${data.tests})
+## Tests:\n > See a sample of a README generated \n [${data.tests}](${data.tests})
+## Video: \n > Watch a short video on how to use the README Generator [ReadMe Video](https://watch.screencastify.com/v/hSGDHr7ImWFgInykSgry)
 ## Questions:\n ${data.userName} \n [${data.repo}](${data.repo}) \n
 Feel free to get in touch! \n [${data.email}](mailto:${data.email})
 
